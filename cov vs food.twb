@@ -1,0 +1,874 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0525.0851                               -->
+<workbook original-version='18.1' source-build='2022.1.2 (20221.22.0525.0851)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='tabula-global-summary' inline='true' name='federated.0jhxdc416shxg018im32v1gf3sed' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tabula-global-summary' name='textscan.12gh6u105jwhbl17w3rxq13xmcci'>
+            <connection class='textscan' directory='C:/Users/Vince/Downloads' filename='tabula-global-summary.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.12gh6u105jwhbl17w3rxq13xmcci' name='tabula-global-summary.csv' table='[tabula-global-summary#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='TOTAL POPULATION OF REFERENCE(MILLIONS)' ordinal='1' />
+            <column datatype='real' name='PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS)' ordinal='2' />
+            <column datatype='real' name='PEOPLE USING CRISIS OR ABOVE CRISIS LEVEL FOOD-BASED COPING STRATEGIES(MILLIONS)' ordinal='3' />
+            <column datatype='real' name='PEOPLE USING CRISIS OR EMERGENCY LIVELIHOOD COPING STRATEGIES(MILLIONS) ' ordinal='4' />
+            <column datatype='real' name='PEOPLE REPORTING CHALLENGES ACCESSING MARKETS (MILLIONS)' ordinal='5' />
+            <column datatype='real' name='COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000)' ordinal='6' />
+            <column datatype='real' name='CONFLICT RELATED FATALITIES PER 100,000' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.12gh6u105jwhbl17w3rxq13xmcci' name='tabula-global-summary.csv' table='[tabula-global-summary#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='TOTAL POPULATION OF REFERENCE(MILLIONS)' ordinal='1' />
+            <column datatype='real' name='PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS)' ordinal='2' />
+            <column datatype='real' name='PEOPLE USING CRISIS OR ABOVE CRISIS LEVEL FOOD-BASED COPING STRATEGIES(MILLIONS)' ordinal='3' />
+            <column datatype='real' name='PEOPLE USING CRISIS OR EMERGENCY LIVELIHOOD COPING STRATEGIES(MILLIONS) ' ordinal='4' />
+            <column datatype='real' name='PEOPLE REPORTING CHALLENGES ACCESSING MARKETS (MILLIONS)' ordinal='5' />
+            <column datatype='real' name='COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000)' ordinal='6' />
+            <column datatype='real' name='CONFLICT RELATED FATALITIES PER 100,000' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tabula-global-summary.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[tabula-global-summary.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabula-global-summary.csv_56E616D250044404B5EDAE790279D39D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL POPULATION OF REFERENCE(MILLIONS)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL POPULATION OF REFERENCE(MILLIONS)]</local-name>
+            <parent-name>[tabula-global-summary.csv]</parent-name>
+            <remote-alias>TOTAL POPULATION OF REFERENCE(MILLIONS)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabula-global-summary.csv_56E616D250044404B5EDAE790279D39D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS)]</local-name>
+            <parent-name>[tabula-global-summary.csv]</parent-name>
+            <remote-alias>PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabula-global-summary.csv_56E616D250044404B5EDAE790279D39D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PEOPLE USING CRISIS OR ABOVE CRISIS LEVEL FOOD-BASED COPING STRATEGIES(MILLIONS)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PEOPLE USING CRISIS OR ABOVE CRISIS LEVEL FOOD-BASED COPING STRATEGIES(MILLIONS)]</local-name>
+            <parent-name>[tabula-global-summary.csv]</parent-name>
+            <remote-alias>PEOPLE USING CRISIS OR ABOVE CRISIS LEVEL FOOD-BASED COPING STRATEGIES(MILLIONS)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabula-global-summary.csv_56E616D250044404B5EDAE790279D39D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PEOPLE USING CRISIS OR EMERGENCY LIVELIHOOD COPING STRATEGIES(MILLIONS) </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PEOPLE USING CRISIS OR EMERGENCY LIVELIHOOD COPING STRATEGIES(MILLIONS) ]</local-name>
+            <parent-name>[tabula-global-summary.csv]</parent-name>
+            <remote-alias>PEOPLE USING CRISIS OR EMERGENCY LIVELIHOOD COPING STRATEGIES(MILLIONS) </remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabula-global-summary.csv_56E616D250044404B5EDAE790279D39D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PEOPLE REPORTING CHALLENGES ACCESSING MARKETS (MILLIONS)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PEOPLE REPORTING CHALLENGES ACCESSING MARKETS (MILLIONS)]</local-name>
+            <parent-name>[tabula-global-summary.csv]</parent-name>
+            <remote-alias>PEOPLE REPORTING CHALLENGES ACCESSING MARKETS (MILLIONS)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabula-global-summary.csv_56E616D250044404B5EDAE790279D39D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000)]</local-name>
+            <parent-name>[tabula-global-summary.csv]</parent-name>
+            <remote-alias>COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabula-global-summary.csv_56E616D250044404B5EDAE790279D39D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CONFLICT RELATED FATALITIES PER 100,000</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CONFLICT RELATED FATALITIES PER 100,000]</local-name>
+            <parent-name>[tabula-global-summary.csv]</parent-name>
+            <remote-alias>CONFLICT RELATED FATALITIES PER 100,000</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabula-global-summary.csv_56E616D250044404B5EDAE790279D39D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Conflict Related Fatalities Per 100,000' datatype='real' name='[CONFLICT RELATED FATALITIES PER 100,000]' role='measure' type='quantitative' />
+      <column caption='Covid-19 Incidence (Average Daily New Cases Per 100,000)' datatype='real' name='[COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000)]' role='measure' type='quantitative' />
+      <column caption='Percentage of country&apos;s population with insufficient food consumption' datatype='real' name='[Calculation_797981609026150400]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS)]/[TOTAL POPULATION OF REFERENCE(MILLIONS)]' />
+      </column>
+      <column caption='over 50' datatype='integer' name='[Calculation_797981609033740289]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000)] &gt; 50&#13;&#10;THEN 1&#13;&#10;ELSE 0&#13;&#10;END' />
+      </column>
+      <column datatype='string' name='[F1]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;Republic of Mongolia&quot;' value='&quot;Mongolia&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='People Reporting Challenges Accessing Markets (Millions)' datatype='real' name='[PEOPLE REPORTING CHALLENGES ACCESSING MARKETS (MILLIONS)]' role='measure' type='quantitative' />
+      <column caption='People Using Crisis Or Above Crisis Level Food-Based Coping Strategies(Millions)' datatype='real' name='[PEOPLE USING CRISIS OR ABOVE CRISIS LEVEL FOOD-BASED COPING STRATEGIES(MILLIONS)]' role='measure' type='quantitative' />
+      <column caption='People Using Crisis Or Emergency Livelihood Coping Strategies(Millions)' datatype='real' name='[PEOPLE USING CRISIS OR EMERGENCY LIVELIHOOD COPING STRATEGIES(MILLIONS) ]' role='measure' type='quantitative' />
+      <column caption='People With Insufficient Food Consumption (Millions)' datatype='real' name='[PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS)]' role='measure' type='quantitative' />
+      <column caption='Total Population Of Reference(Millions)' datatype='real' name='[TOTAL POPULATION OF REFERENCE(MILLIONS)]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='tabula-global-summary.csv' datatype='table' name='[__tableau_internal_object_id__].[tabula-global-summary.csv_56E616D250044404B5EDAE790279D39D]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[tabula-global-summary.csv_56E616D250044404B5EDAE790279D39D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:tabula-global-summary.csv_56E616D250044404B5EDAE790279D39D:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000)]' derivation='None' name='[none:COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_797981609026150400]' derivation='None' name='[none:Calculation_797981609026150400:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+      <column-instance column='[CONFLICT RELATED FATALITIES PER 100,000]' derivation='Sum' name='[sum:CONFLICT RELATED FATALITIES PER 100,000:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000)]' derivation='Sum' name='[sum:COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_797981609026150400]' derivation='Sum' name='[sum:Calculation_797981609026150400:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PEOPLE REPORTING CHALLENGES ACCESSING MARKETS (MILLIONS)]' derivation='Sum' name='[sum:PEOPLE REPORTING CHALLENGES ACCESSING MARKETS (MILLIONS):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PEOPLE USING CRISIS OR ABOVE CRISIS LEVEL FOOD-BASED COPING STRATEGIES(MILLIONS)]' derivation='Sum' name='[sum:PEOPLE USING CRISIS OR ABOVE CRISIS LEVEL FOOD-BASED COPING STRATEGIES(MILLIONS):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PEOPLE USING CRISIS OR EMERGENCY LIVELIHOOD COPING STRATEGIES(MILLIONS) ]' derivation='Sum' name='[sum:PEOPLE USING CRISIS OR EMERGENCY LIVELIHOOD COPING STRATEGIES(MILLIONS) :qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS)]' derivation='Sum' name='[sum:PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TOTAL POPULATION OF REFERENCE(MILLIONS)]' derivation='Sum' name='[sum:TOTAL POPULATION OF REFERENCE(MILLIONS):qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jhxdc416shxg018im32v1gf3sed].[none:COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0jhxdc416shxg018im32v1gf3sed].[sum:COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0jhxdc416shxg018im32v1gf3sed].[sum:PEOPLE REPORTING CHALLENGES ACCESSING MARKETS (MILLIONS):qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0jhxdc416shxg018im32v1gf3sed].[__tableau_internal_object_id__].[cnt:tabula-global-summary.csv_56E616D250044404B5EDAE790279D39D:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.0jhxdc416shxg018im32v1gf3sed].[sum:TOTAL POPULATION OF REFERENCE(MILLIONS):qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0jhxdc416shxg018im32v1gf3sed].[sum:PEOPLE USING CRISIS OR EMERGENCY LIVELIHOOD COPING STRATEGIES(MILLIONS) :qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0jhxdc416shxg018im32v1gf3sed].[sum:CONFLICT RELATED FATALITIES PER 100,000:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0jhxdc416shxg018im32v1gf3sed].[sum:PEOPLE USING CRISIS OR ABOVE CRISIS LEVEL FOOD-BASED COPING STRATEGIES(MILLIONS):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0jhxdc416shxg018im32v1gf3sed].[none:Calculation_797981609026150400:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0jhxdc416shxg018im32v1gf3sed].[sum:Calculation_797981609026150400:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0jhxdc416shxg018im32v1gf3sed].[sum:PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS):qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:F1:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Madagascar&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sierra Leone&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Democratic Republic of the Congo&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Uganda&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Republic of Mongolia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Vanuatu&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Burkina Faso&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Guinea&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Moldova,&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bolivia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Gambia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Lesotho&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Rwanda&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Viet Nam&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Chad&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Côte d&apos;Ivoire&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Iran (Islamic Republic of)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Djibouti&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Cape Verde&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Namibia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tajikistan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Eswatini&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Liberia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sao Tome and Principe&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Yemen&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Burundi&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;GuineaBissau&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;State of Palestine&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Haiti&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Mozambique&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Sudan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Central African Republic&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Congo&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Timor-Leste&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Niger&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Mali&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Somalia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Libya&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Senegal&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Zambia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Togo&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;United Republic of Tanzania&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Myanmar&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Syrian Arab Republic&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Mauritania&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;South Sudan&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Lao People&apos;s Democratic Republic&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='tabula-global-summary.csv' id='tabula-global-summary.csv_56E616D250044404B5EDAE790279D39D'>
+            <properties context=''>
+              <relation connection='textscan.12gh6u105jwhbl17w3rxq13xmcci' name='tabula-global-summary.csv' table='[tabula-global-summary#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='real' name='TOTAL POPULATION OF REFERENCE(MILLIONS)' ordinal='1' />
+                  <column datatype='real' name='PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS)' ordinal='2' />
+                  <column datatype='real' name='PEOPLE USING CRISIS OR ABOVE CRISIS LEVEL FOOD-BASED COPING STRATEGIES(MILLIONS)' ordinal='3' />
+                  <column datatype='real' name='PEOPLE USING CRISIS OR EMERGENCY LIVELIHOOD COPING STRATEGIES(MILLIONS) ' ordinal='4' />
+                  <column datatype='real' name='PEOPLE REPORTING CHALLENGES ACCESSING MARKETS (MILLIONS)' ordinal='5' />
+                  <column datatype='real' name='COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000)' ordinal='6' />
+                  <column datatype='real' name='CONFLICT RELATED FATALITIES PER 100,000' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Covid  Cases per day vs. Food Insecurities</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tabula-global-summary' name='federated.0jhxdc416shxg018im32v1gf3sed' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0jhxdc416shxg018im32v1gf3sed'>
+            <column caption='Covid-19 Incidence (Average Daily New Cases Per 100,000)' datatype='real' name='[COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000)]' role='measure' type='quantitative' />
+            <column caption='Percentage of country&apos;s population with insufficient food consumption' datatype='real' name='[Calculation_797981609026150400]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS)]/[TOTAL POPULATION OF REFERENCE(MILLIONS)]' />
+            </column>
+            <column datatype='string' name='[F1]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Republic of Mongolia&quot;' value='&quot;Mongolia&quot;' />
+              </semantic-values>
+            </column>
+            <column caption='People With Insufficient Food Consumption (Millions)' datatype='real' name='[PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS)]' role='measure' type='quantitative' />
+            <column caption='Total Population Of Reference(Millions)' datatype='real' name='[TOTAL POPULATION OF REFERENCE(MILLIONS)]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='Attribute' name='[attr:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000)]' derivation='None' name='[none:COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_797981609026150400]' derivation='None' name='[none:Calculation_797981609026150400:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0jhxdc416shxg018im32v1gf3sed].[none:COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000):qk]' max='50.0' min='0.0' num-steps='14' type='interpolated' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <tooltip column='[federated.0jhxdc416shxg018im32v1gf3sed].[attr:F1:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='power' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true' fontcolor='#000000'>In 2022, &lt;</run>
+                <run bold='true' fontcolor='#000000'>[federated.0jhxdc416shxg018im32v1gf3sed].[attr:F1:nk]</run>
+                <run bold='true' fontcolor='#000000'>&gt; has around&lt;</run>
+                <run bold='true' fontcolor='#000000'>[federated.0jhxdc416shxg018im32v1gf3sed].[none:COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000):qk]</run>
+                <run bold='true' fontcolor='#000000'><![CDATA[> cases of covid per 100,000 per day, and <]]></run>
+                <run bold='true' fontcolor='#000000'>[federated.0jhxdc416shxg018im32v1gf3sed].[none:Calculation_797981609026150400:qk]</run>
+                <run bold='true' fontcolor='#000000'>&gt; % of country&apos;s population has insufficient food consumption</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jhxdc416shxg018im32v1gf3sed].[none:COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000):qk]</rows>
+        <cols>[federated.0jhxdc416shxg018im32v1gf3sed].[none:Calculation_797981609026150400:qk]</cols>
+      </table>
+      <simple-id uuid='{37BF4239-589F-49A6-81C2-03409C0DE972}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jhxdc416shxg018im32v1gf3sed].[:Measure Names]</field>
+            <field>[federated.0jhxdc416shxg018im32v1gf3sed].[none:COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000):qk]</field>
+            <field>[federated.0jhxdc416shxg018im32v1gf3sed].[none:Calculation_797981609026150400:qk]</field>
+            <field>[federated.0jhxdc416shxg018im32v1gf3sed].[none:F1:nk]</field>
+            <field>[federated.0jhxdc416shxg018im32v1gf3sed].[none:PEOPLE USING CRISIS OR ABOVE CRISIS LEVEL FOOD-BASED COPING STRATEGIES(MILLIONS):qk]</field>
+            <field>[federated.0jhxdc416shxg018im32v1gf3sed].[none:PEOPLE WITH INSUFFICIENT FOOD CONSUMPTION (MILLIONS):qk]</field>
+            <field>[federated.0jhxdc416shxg018im32v1gf3sed].[sum:COVID-19 INCIDENCE (AVERAGE DAILY NEW CASES PER 100,000):qk]</field>
+            <field>[federated.0jhxdc416shxg018im32v1gf3sed].[sum:Calculation_797981609026150400:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2C7EF9C2-CB65-49DD-BB0A-B8E4AEEAC255}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
